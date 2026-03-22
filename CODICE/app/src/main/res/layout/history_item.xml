@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout singola riga nella lista rilevamenti
+	ogni singolo sample nella lista viene creato con questo layout dall'adapter
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- attività e confidenza -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- nome attività -->
+        <TextView
+            android:id="@+id/tvItemActivity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WALKING"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- percentuale confidenza -->
+        <TextView
+            android:id="@+id/tvItemConfidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="92.5%"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- timestamp -->
+    <TextView
+        android:id="@+id/tvItemTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01/03/2026 14:30:00"
+        android:textSize="13sp"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

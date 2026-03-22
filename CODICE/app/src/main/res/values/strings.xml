@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HAR</string>
+    <!-- Etichette UI - MainActivity -->
+    <string name="app_title">HAR - Human Activity Recognition</string>
+    <string name="label_attivita_rilevata">Attività rilevata:</string>
+    <string name="label_attivita_default"> </string>
+    <string name="label_confidenza_default">Confidenza: %</string>
+    <string name="label_stato_attesa">In attesa...</string>
+    <string name="label_stato_raccolta">Raccolta dati in corso...</string>
+    <string name="label_stato_attivo">Riconoscimento attivo</string>
+    <string name="btn_avvia">AVVIA RICONOSCIMENTO</string>
+    <string name="btn_ferma">FERMA RICONOSCIMENTO</string>
+    <string name="btn_storico">VEDI STORICO</string>
+
+    <!-- Etichette UI - HistoryActivity -->
+    <string name="history_title">Storico Rilevazioni</string>
+    <string name="history_empty">Nessuna rilevazione trovata.</string>
+
+    <!-- Traduzione nomi attività -->
+    <string name="activity_walking">Camminata</string>
+    <string name="activity_jogging">Corsa</string>
+    <string name="activity_standing">In piedi</string>
+    <string name="activity_sedentary">A riposo</string>
+    <string name="activity_unknown">Sconosciuta</string>
+
+</resources>
