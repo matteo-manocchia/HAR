@@ -28,7 +28,7 @@ public class HARClassifier {
             "SEDENTARY"
     };
 
-    private static final String FIREBASE_MODEL_NAME = "har_model";
+    private static final String FIREBASE_MODEL_NAME = "har_model_quantized";
 
     // servirà per eseguire il modello
     private Interpreter interpreter;
