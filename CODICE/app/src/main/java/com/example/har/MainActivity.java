@@ -25,7 +25,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 
     // frequenza di campionamento del sensore, corrisponde a quella del modello 100Hz, ma
     // espressa in secondi
-    private static final int SENSOR_DELAY_100HZ_US = 10000;
+    private static final int SENSOR_DELAY = 10000;
 
     private TextView tvActivity;
     private TextView tvConfidence;
@@ -198,7 +198,7 @@ public class MainActivity extends Activity implements SensorEventListener {
     // intervallo tra ogni campione (100Hz)
     private void registraSensori() {
         if (sensorAccelerometer != null) {
-            sensorManager.registerListener(this, sensorAccelerometer, SENSOR_DELAY_100HZ_US);
+            sensorManager.registerListener(this, sensorAccelerometer, SENSOR_DELAY);
         }
     }
 
